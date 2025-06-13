@@ -39,35 +39,6 @@
     <footer>
       <p>@ K-drama movies 2025</p>
     </footer>
-    <script>
-let fname = document.getElementById("fname").value;
-let lname = document.getElementById("lname").value;
-let telephone = document.getElementById("telephone").value;
-let email = document.getElementById("email").value;
-let org = document.getElementById("org").value;
-let province = document.getElementById("province").value;
-let city = document.getElementById("city").value;
-let Barangay = document.getElementById("Barangay").value;
-let Street = document.getElementById("Street").value;
-let message = document.getElementById("message").value;
-
-if (
-    fname === "" || lname === "" || telephone === "" || email === "" ||
-    org === "" || province === "" || city === "" || Barangay === "" ||
-    Street === "" || message === ""
-) {
-    alert("Please your input was empty");
-} else if (fname === lname) {
-    alert("Firstname and lastname are not the same!");
-} else if (isNaN(telephone)) {
-    alert("Telephone was not a number!");
-} else if (message.length <= 10) {
-    alert("Please input message more than 10 characters");
-} else if (
-    province === "Davao Del Norte" && city === "Tagum City" && Barangay === "Mankilam"
-) {
-    alert("Good bless!");
-}
-</script>
+   
 </body>
 </html>
